@@ -1,0 +1,31 @@
+.container {
+  margin: 50px;
+  width: 1200px;
+  height: 550px;
+  border: 1px solid black;
+}
+.shape {
+  border: 1px solid black;
+  background-color: bisque;
+  color: red;
+  z-index: 1;
+  position: absolute;
+  cursor: move;
+  height: 200px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-main {
+  margin: 50px;
+  .grid-container {
+    width: 700px;
+    height: 550px;
+    max-height: 600px;
+    max-width: 800px;
+    border: 1px solid gray;
+    resize: both;
+    overflow: auto;
+  }
+}
